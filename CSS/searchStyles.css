@@ -1,0 +1,68 @@
+.links {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+body {
+    font-family: arial, sans-serif;
+    margin-top: 150px;
+}
+
+.container{
+    margin-top:10px
+}
+
+.searchTextContainer {
+    width: 580px;
+    height: 48px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.searchButtonContainer {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#searchText {
+    flex: 100%;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #dde5ec;
+    outline: none;
+}
+
+#searchButton,
+#imfeelingluckybutton {
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+}
+
+#searchText:hover {
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+#searchButton:hover,
+#imfeelingluckybutton:hover {
+    border: 1px solid #dde5ec;
+}
+
+.imagesLogo {
+    position: absolute;
+    left: 762px;
+    top: 225px;
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+}

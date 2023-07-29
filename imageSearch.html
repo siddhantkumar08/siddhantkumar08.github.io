@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Search</title>
     <link rel="stylesheet" href="./CSS/searchStyles.css">
 </head>
-
 <body>
     <div class="links">
-        <a id="advancedSearchLink" href="./advancedSearch.html">Advanced Search</a>
-        <a id="advancedSearchLink" href="./imageSearch.html">Image Search</a>
+        <a id="searchLink" href="./index.html">Back to Search</a>
     </div>
-    <form action="https://www.google.com/search">
+    <form action="https://www.google.com/search?tbm=isch&">
         <center>
             <div class="imageContainer">
                 <img alt="Google" height="92"
                     src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
                     width="272">
             </div>
+            <span class="imagesLogo">Images</span>
             <div class="searchTextContainer">
                 <input id="searchText" type="textArea" name="q" autocomplete="off">
             </div>
             <div class="searchButtonContainer">
-                <input id="searchButton" type="submit" value="Google Search">
-                <input id="imfeelingluckybutton" type="submit" name="btnI" value="I'm Feeling Lucky">
+                <button id="searchButton" type="submit" name="tbm" value="isch">Google Search</button>
             </div>
         </center>
     </form>

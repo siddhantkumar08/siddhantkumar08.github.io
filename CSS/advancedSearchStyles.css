@@ -1,0 +1,51 @@
+.links {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+body {
+    font-family: arial, sans-serif;
+    margin-top: 150px;
+}
+
+.heading {
+    padding-left: 30px;
+    padding-bottom: 210px;
+}
+
+#grid {
+    margin-top: 15px;
+    grid-template-columns: 200px 300px;
+    column-gap: 10px;
+    row-gap: 15px;
+    padding-left: 30px;
+    display: grid;
+    width: 1500px;
+}
+
+.inputContainers {
+    text-align: left;
+}
+
+.texts {
+    width: 550px;
+    height: 25px;
+    border: 1px solid #c0c0c0;
+}
+
+.labels {
+    font-size: 80%;
+}
+
+#advancedSearchButton {
+    user-select: none;
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    min-width: 120px;
+    background: #357ae8;
+    position: absolute;
+    bottom: 35%;
+    right: 41.2%;
+}
